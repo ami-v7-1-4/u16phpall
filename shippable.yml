@@ -1,0 +1,16 @@
+language: php
+
+php: 
+  - "5.6" #5.6.32
+  - "7.0" #7.0.26
+  - "7.1" #7.1.12
+
+build: 
+ pre_ci_boot:
+   image_name: drydock/u16phpall
+   image_tag: v6.1.4
+   pull: true
+    
+ ci:
+   - php --version
+   
