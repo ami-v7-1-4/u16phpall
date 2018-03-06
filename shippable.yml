@@ -8,7 +8,7 @@ php:
 build: 
  pre_ci_boot:
    image_name: drydock/u16phpall
-   image_tag: v6.1.4
+   image_tag: v6.2.4
    pull: true
     
  ci:
